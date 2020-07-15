@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <title>Password_Generator_With_JS</title>
+</head>
+<body>
+    <h1 class="text-center mb-5">Password_Generator_With_JS</h1>
+    <div class="container">
+        <div class="form-group">
+            <input type="text" placeholder="Password..." id="passwordInput" class="form-control" readonly>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="lowerCase"> Include LowerCase Value 
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="UpperCase"> Include UpperCase Value 
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="Numbers"> Include Number  
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="Symbols"> Include Symbols 
+            </label>
+        </div>
+        <button id="BtnClick" class="form-control btn btn-info">PassWord Generate</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
